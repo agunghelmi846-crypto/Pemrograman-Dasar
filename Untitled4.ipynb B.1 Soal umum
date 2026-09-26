@@ -1,0 +1,114 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNMO4V3qjpHL9V++XYFCSxc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/agunghelmi846-crypto/Pemrograman-Dasar/blob/main/Untitled4.ipynb%20B.1%20Soal%20umum\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Nama  : Helmi Agung Nugroho\n",
+        "# NIM   : 4232501006\n",
+        "# Tanggal : 24 September 2026\n",
+        "# Tujuan Program : Menghitung hasil operasi +, -, *, /, //, dan % dari dua bilangan bulat.\n",
+        "\n",
+        "# Memasukkan dua bilangan bulat\n",
+        "bilangan1 = int(input(\"Masukkan bilangan pertama: \"))\n",
+        "bilangan2 = int(input(\"Masukkan bilangan kedua: \"))\n",
+        "\n",
+        "# Menampilkan hasil operasi\n",
+        "print(\"Hasil penjumlahan (+) :\", bilangan1 + bilangan2)\n",
+        "print(\"Hasil pengurangan (-) :\", bilangan1 - bilangan2)\n",
+        "print(\"Hasil perkalian (*) :\", bilangan1 * bilangan2)\n",
+        "print(\"Hasil pembagian (/) :\", bilangan1 / bilangan2)\n",
+        "print(\"Hasil pembagian bulat (//) :\", bilangan1 // bilangan2)\n",
+        "print(\"Hasil modulus (%) :\", bilangan1 % bilangan2)\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "-sPSaUT-Wbnn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nilai = int(input(\"Masukkan nilai ujian (0-100): \"))\n",
+        "\n",
+        "print(nilai >= 60)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TWfokF7fDTqk",
+        "outputId": "40e901d8-160c-45ac-ce54-e4c173f971af"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan nilai ujian (0-100): 75\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "umur = int(input(\"Masukkan umur: \"))\n",
+        "punya_sim = input(\"Punya SIM? (True/False): \") == \"True\"\n",
+        "\n",
+        "boleh_mengemudi = (umur >= 17) and punya_sim\n",
+        "\n",
+        "print(boleh_mengemudi)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lvBF7QNODsyN",
+        "outputId": "3e6a6b69-05f8-48ec-f158-81173a72661f"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan umur: 20\n",
+            "Punya SIM? (True/False): True\n",
+            "True\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
